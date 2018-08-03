@@ -1,0 +1,46 @@
+<table class="table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Title</th>
+      <th scope="col">Value</th>
+    </tr>
+  </thead>
+  <tbody appRedblack >
+    <tr>
+      <th scope="row">A</th>
+      <td appRedblack>First Name</td>
+      <td appRedblack >{{data.firstname}}</td>
+    </tr>
+    <tr>
+      <th scope="row">B</th>
+      <td>Last Name</td>
+      <td>{{data.lastname}}</td>
+    </tr>
+    <tr>
+      <th scope="row">C</th>
+      <td>Gender</td>
+      <td>{{data.gen}}</td>
+    </tr>
+    <tr>
+      <th scope="row">D</th>
+      <td>Phone</td>
+      <td>{{data.number}}</td>
+    </tr>
+    <tr>
+      <th scope="row">E</th>
+      <td>Password</td>
+      <td>{{data.pass}}</td>
+    </tr>
+    <tr>
+      <th scope="row">F</th>
+      <td>EmpID</td>
+      <td>{{data.empid}}</td>
+    </tr>
+    
+    <div>
+   <div></div>   
+ <button type="button" (click)="editform()">Main Page</button> 
+</div>
+</tbody>
+</table>
